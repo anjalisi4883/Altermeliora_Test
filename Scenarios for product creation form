@@ -1,0 +1,27 @@
+Scenarios for Product creation form:
+1.	Validate that user is able to enter the product title in Russian language (tried with specific Russian characters)
+2.	Validate that user is able to enter Description of product. Validate the textfield length, font styling options available, bullets etc. 
+3.	Validate that user is able to enter the product title in English (tried with specific Russian characters)
+4.	Validate that user is able to enter Description of product. Validate the textfield length, font styling options available, bullets etc. 
+5.	Validate that error pop-up should be appeared when user does not enter the product title in English or in Russian language. 
+6.	Validate that user is able to upload the image by clicking on upload button. (jpg,png,jpeg )
+7.	Validate by uploading different types of file into upload picture. (word, pdf, excel etc) Other files should throw an error. 
+8.	Validate that user is able to select Product category from the “Product categories” dropdown.
+9.	Validate that error popup should appear when user does not select any product category.
+10.	Validate Price field by entering numeric characters only. 
+11.	Validate that error popup appeared when user enters 0 in Price field and also with negative values. 
+12.	Also, validate that user should not be allowed to enter any other character type as String. 
+13.	Validate by selecting different currency types from “Currency “dropdown. 
+14.	Validate the functionality of “Auto calculate” by selecting the checkbox and for example main currency is selected as “EURO” then validate the amount populated in Rubel, dollar and shekel text field. (validate that amount is appearing as per current rate)
+15.	Also, validate 11th scenario by selecting main currency as “RUBEL” then validate with “DOLLAR” and then “SHEKEL” and validate recalculation price for all types of currencies. 
+16.	Validate the not selected functionality of “Auto calculate”, If already selected de-select the checkbox. Validate that user is able to enter the fixed price for the product for each currency.
+17.	Also, in addition to the 13th scenario, try to add the product that is not available in that region and leave the field blank. 
+Questions:
+1.	Special characters allowed in product title and in product description?
+2.	Length of product title and product description?
+3.	How many images are allowed to upload? 
+4.	Size of image allowed to upload? 
+5.	What if added product category option is not available in “product categories “dropdown? Is there any option to add new category? 
+6.	There are 2 auto calculate button available? one is selected and one is not? Not clear about it. Also, there is one icon next to Auto calculate string, not clear with that as well. 
+7.	In case of Auto-calculation box checked, price will be recalculated as per current rate and would be populate automatically? or user needs to add the price as per current rate? 
+8.	For the product not available in specific region, user will leave the field as blank. There should be tooltip function available, so that user can understand why field is blank.
